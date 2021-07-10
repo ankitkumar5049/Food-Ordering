@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e92c0c"
+    tools:context=".activity.ActivityOTP">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/txtOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP(4 Characters)"
+        android:textColor="#000"
+        android:background="#fff"
+        android:textColorHint="#808080"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/txtNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password(Min. 4 characters)"
+        android:background="#fff"
+        android:textColorHint="#808080"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+    <EditText
+        android:id="@+id/txtConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:background="#fff"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:background="#fb4c0d"/>
+
+</LinearLayout>
